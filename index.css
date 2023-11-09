@@ -29,3 +29,17 @@ a {
 a:hover {
     opacity: 0.6;
 }
+.pdisp {
+    background-color: #c4ceca;
+    border: solid;
+    border-radius :25px;
+    text-align: center;
+    box-shadow: 2px 2px 2px 2px rgb(53, 53, 53);
+}
+.agenda {
+    background-color: #c4ceca;
+    border: solid;
+    border-radius: 25px;
+    box-shadow: 2px 2px 2px 2px rgb(53, 53, 53);
+    text-align: center;
+}
