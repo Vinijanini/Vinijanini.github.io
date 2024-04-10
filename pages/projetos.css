@@ -22,9 +22,9 @@ h1.titulo {
     margin: auto;
     text-align: center;
     background-color: #27304e;
-    border: solid rgb(90, 143, 125);
+    border: solid rgb(194, 194, 194);
     border-radius: 60px;
-    box-shadow: 5px 5px 3px rgb(62, 99, 86);
+    box-shadow: 5px 5px 3px #53649b;
 }
 
 .a_projetos {
@@ -33,7 +33,7 @@ h1.titulo {
     background-color: rgb(61, 69, 104);
     border: outset 3px rgb(185, 185, 185);
     border-radius: 25px;
-    box-shadow: 4px 4px 5px black;
+    box-shadow: 4px 4px 5px #131722;
 }
 
 .a_projetos:hover {
