@@ -45,22 +45,22 @@ h2.contato {
 }
 
 .contatos {
-    width: 390px;
+    width: 380px;
     margin: auto;
     border: double white;
     border-radius: 40px;
-    box-shadow: 5px 5px 3px rgb(77, 77, 77);
+    box-shadow: 5px 5px 3px #53649b;
     background: transparent;
 }
 
 .habilidades {
-    width: 390px;
     margin: auto;
+    width: 380px;
     background-color: #3f465e;
     padding: 5px 2px 5px 5px;
     border: solid rgb(194, 194, 194);
     border-radius: 20px;
-    box-shadow: 5px 5px 3px rgb(77, 77, 77);
+    box-shadow: 5px 5px 3px #53649b;
 }
 
 .projetos {
@@ -70,7 +70,7 @@ h2.contato {
     padding: 7px 7px 7px 7px;
     border-radius: 50%;
     border: solid white;
-    box-shadow: 5px 5px 3px rgb(77, 77, 77);
+    box-shadow: 5px 5px 3px #53649b;
 }
 
 a.projeto {
