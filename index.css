@@ -86,3 +86,15 @@ a.projeto:hover {
     opacity: 0.5;
     background-color: #3f465e;
 }
+
+#beecrowd {
+    background-color: rgb(189, 189, 189);
+    width:160px;
+    margin: auto;
+    border-radius: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: outset 7px;
+    filter: drop-shadow(20px 4px 4px #11172b);
+}
