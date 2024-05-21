@@ -98,3 +98,7 @@ a.projeto:hover {
     border: outset 7px;
     filter: drop-shadow(20px 4px 4px #11172b);
 }
+#ctts_span {
+    position: relative;
+    bottom: 8px;
+}
