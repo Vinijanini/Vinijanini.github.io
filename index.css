@@ -67,23 +67,23 @@ h2.contato {
     font-size: 22pt;
     color: black;
     text-shadow: 1px 1px 0px rgb(255, 225, 0);
+    transition: 1s;
 }
 #escola {
     position: relative;
     bottom: -4px;
 }
-#impacta {
-    align-self: flex-start;
-}
-.formacao_impacta {
+.divisao_formacao {
     margin: auto;
-    width: 180px;
+    width: 167px;
     background-color: rgb(175, 214, 225);
+    margin-bottom: 30px;
     padding: 10px;
     border-radius: 15px;
     box-shadow: 3px 3px 3px rgb(96, 100, 114);
+    transition: 1s;
 }
-.formacao_impacta p {
+.divisao_formacao p {
     font-size: 12pt;
     text-shadow: 1px 1px 0px aliceblue;
 }
