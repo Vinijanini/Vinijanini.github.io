@@ -134,10 +134,6 @@ a.projeto:hover {
     align-items: center;
     border: outset 7px;
     filter: drop-shadow(20px 4px 4px #11172b);
-    transition: 0.5s;
-}
-#beecrowd:hover {
-    transform: scale(1.2);
 }
 #ctts_span {
     position: relative;
