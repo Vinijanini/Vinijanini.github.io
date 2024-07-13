@@ -5,6 +5,7 @@ body {
 }
 
 h1.nome {
+    font-size: 25pt;
     color: rgb(110, 216, 181);
     text-shadow: 3px 3px 3px rgb(64, 124, 104);
     text-align: center;
