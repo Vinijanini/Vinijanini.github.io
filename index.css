@@ -107,8 +107,12 @@ h2.contato {
     margin: auto;
     padding: 7px 7px 7px 7px;
     border-radius: 50%;
-    border: solid white;
+    border: inset white 4px;
     box-shadow: 5px 5px 3px #53649b;
+}
+
+.projetos:hover {
+    border: outset white 4px;
 }
 
 a.projeto {
@@ -116,7 +120,6 @@ a.projeto {
     text-decoration: none;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color:rgb(110, 216, 181);
-    background-color: #383a41;
     border-radius: 20px;
 }
 
@@ -136,6 +139,10 @@ a.projeto:hover {
     border: outset 7px;
     filter: drop-shadow(20px 4px 4px #11172b);
 }
+#beecrowd:hover {
+    border: inset 7px;
+}
+
 #ctts_span {
     position: relative;
     bottom: 8px;
