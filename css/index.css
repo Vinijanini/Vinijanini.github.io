@@ -73,7 +73,9 @@ section#sobre_mim > h1 {
 }
 
 section#sobre_mim > p {
+    text-indent: 11px;
     margin: 10px 0px;
+    text-align: justify;
 }
 
 span {
