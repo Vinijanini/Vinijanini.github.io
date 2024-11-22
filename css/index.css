@@ -83,6 +83,7 @@ span {
 /*formacao*/
 section#formacao{
     text-align: center;
+    padding-bottom: 30px;
 }
 
 section#formacao > div {
@@ -114,7 +115,7 @@ progress {
 
 /*footer*/
 footer {
-    padding: 15px 0px;
+    padding: 15px 0px 25px 0px;
     text-align: center;
     position: relative;
     bottom: 0;
