@@ -157,6 +157,13 @@ div > img {
     background-color: #0056b3;
 }
 
+/*linkedIn*/
+
+#linkedIn {
+    margin: auto;
+    width: 300px;
+}
+
 /*Celular*/
 @media(min-width:320px) and (max-width:500px) {
     section {
