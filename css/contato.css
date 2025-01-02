@@ -178,12 +178,12 @@ footer > p {
     width: 100%;
   }
   img {
-    width: 18px;
+    width: 21px;
   }
   li > a {
     position: relative;
     bottom: -10px;
-    font-size: 0.6em;
+    font-size: 0.9em;
   }
   footer > p {
     font-size: 1.1em;
