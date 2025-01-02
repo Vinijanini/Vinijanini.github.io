@@ -129,7 +129,7 @@ li > a:hover {
 }
 
 img {
-  margin-right: 20px;
+  margin-right: 10px;
   position: relative;
   bottom: -20px;
 }
@@ -178,12 +178,12 @@ footer > p {
     width: 100%;
   }
   img {
-    width: 20px;
+    width: 18px;
   }
   li > a {
     position: relative;
     bottom: -10px;
-    font-size: 0.8em;
+    font-size: 0.6em;
   }
   footer > p {
     font-size: 1.1em;
