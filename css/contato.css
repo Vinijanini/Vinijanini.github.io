@@ -134,6 +134,13 @@ img {
   bottom: -20px;
 }
 
+h2 {
+  opacity: 0;
+  animation-name: aparecer;
+  animation-duration: 4s;
+  animation-fill-mode: forwards;
+}
+
 /*footer*/
 footer {
   padding: 15px 0px 25px 0px;
