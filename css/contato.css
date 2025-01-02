@@ -115,7 +115,7 @@ ul {
 }
 
 li {
-  margin: 20px 0px;
+  margin: 32px 0px;
 }
 
 li > a {
@@ -178,12 +178,12 @@ footer > p {
     width: 100%;
   }
   img {
-    width: 25px;
+    width: 20px;
   }
   li > a {
     position: relative;
     bottom: -10px;
-    font-size: 1em;
+    font-size: 0.8em;
   }
   footer > p {
     font-size: 1.1em;
