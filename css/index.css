@@ -20,6 +20,12 @@ header {
     background-color: #333;
     width: 100%;
     height: auto;
+
+    opacity: 0;
+    animation-name: aparecer;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+
 }
 
 
@@ -42,6 +48,12 @@ nav {
     background-color: #444;
     width: 100%;
     height: auto;
+
+    opacity: 0;
+    animation-name: aparecer;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
+
 }
 
 nav > a {
@@ -61,11 +73,17 @@ nav > a:hover {
 
 /*Sobre mim*/
 
-section {
+section#sobre_mim {
     padding: 15px;
     background-color: white;
     border-radius: 10px;
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.096);
+
+    opacity: 0;
+    animation-name: aparecer;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+
 }
 
 section#sobre_mim > h1 {
@@ -86,6 +104,12 @@ span {
 section#formacao{
     text-align: center;
     padding-bottom: 30px;
+
+    opacity: 0;
+    animation-name: aparecer;
+    animation-duration: 3.5s;
+    animation-fill-mode: forwards;
+
 }
 
 section#formacao > div {
@@ -125,6 +149,12 @@ footer {
     width: 100%;
     color: white;
     background-color: #333;
+
+    opacity: 0;
+    animation-name: aparecer;
+    animation-duration: 4.5s;
+    animation-fill-mode: forwards;
+
 }
 
 div {
@@ -162,6 +192,12 @@ div > img {
 #linkedIn {
     margin: auto;
     width: 300px;
+
+    opacity: 0;
+    animation-name: aparecer;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+
 }
 
 /*Celular*/
@@ -238,5 +274,12 @@ div > img {
     section#formacao > div {
         width: 470px;
         margin: auto;
+    }
+}
+
+@keyframes aparecer {
+    to {
+        opacity: 1;
+        
     }
 }

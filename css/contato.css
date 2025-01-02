@@ -1,0 +1,246 @@
+* {
+  margin: 0;
+  font-family: "Arial", sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  overflow-x: hidden;
+  background-color: #f4f4f4;
+  min-height: 100vh; /* Isso garante que o conteúdo ocupe toda a altura da tela */
+  display: flex;
+  flex-direction: column;
+}
+/*header e nav*/
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 0px 10px 0px;
+  background-color: #333;
+  width: 100%;
+  height: auto;
+
+  opacity: 0;
+  animation-name: aparecer;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+header > img {
+  width: 40px;
+  margin-right: 12px;
+  border-radius: 50%;
+  border: 0.8px solid white;
+  filter: drop-shadow(2px 2px 3px rgba(0, 0, 0, 0.623));
+}
+
+header > h1 {
+  color: white;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.466);
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  background-color: #444;
+  width: 100%;
+  height: auto;
+
+  opacity: 0;
+  animation-name: aparecer;
+  animation-duration: 1.5s;
+  animation-fill-mode: forwards;
+}
+
+nav > a {
+  transition: 0.3s;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.719);
+  padding: 5px;
+  text-decoration: none;
+  margin: 5px 14px;
+  font-size: 1em;
+  color: white;
+}
+
+nav > a:hover {
+  transform: scale(1.1);
+  color: #f4f4f4;
+}
+
+main {
+  height: 100%;
+  display: flex;
+  margin: 0;
+  flex-direction: column;
+}
+
+main > h1 {
+  margin: 30px 0px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  text-shadow: 1px 1px 1px rgb(0, 110, 255);
+
+  opacity: 0;
+  animation-name: aparecer;
+  animation-duration: 1.7s;
+  animation-fill-mode: forwards;
+}
+
+div#contatos {
+  background-color: #3b90ff54;
+  padding: 10px 0px;
+  transition: 0.4s;
+
+  opacity: 0;
+  animation-name: aparecer;
+  animation-duration: 1.9s;
+  animation-fill-mode: forwards;
+}
+
+div#contatos:hover {
+  transform: translateY(-5px);
+  box-shadow: 4px 6px 4px rgba(0, 0, 0, 0.162);
+}
+
+ul {
+  list-style: none;
+  margin: 15px;
+}
+
+li {
+  margin: 20px 0px;
+}
+
+li > a {
+  font-size: 1.5em;
+  color: rgb(33, 33, 255);
+  transition: 0.3s;
+}
+
+li > a:hover {
+  color: rgb(136, 136, 255);
+}
+
+img {
+  margin-right: 20px;
+  position: relative;
+  bottom: -20px;
+}
+
+/*footer*/
+footer {
+  padding: 15px 0px 25px 0px;
+  text-align: center;
+  position: relative;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  color: white;
+  background-color: #333;
+
+  opacity: 0;
+  animation-name: aparecer;
+  animation-duration: 4.5s;
+  animation-fill-mode: forwards;
+}
+
+footer > p {
+  margin: 18px 0px;
+}
+
+@keyframes aparecer {
+  to {
+    opacity: 1;
+  }
+}
+
+/*celular e Tablet*/
+@media (max-width: 790px) {
+  main > h1 {
+    font-size: 2.4em;
+  }
+  div#contatos {
+    margin-left: 10px;
+    width: 100%;
+  }
+  img {
+    width: 35px;
+  }
+  li > a {
+    position: relative;
+    bottom: -10px;
+    font-size: 1.2em;
+  }
+  footer > p {
+    font-size: 1.1em;
+  }
+  h2 {
+    text-align: center;
+    margin-top: 50px;
+  }
+}
+
+/*Desktop menor*/
+@media (min-width: 791px) and (max-width: 1390px) {
+  main > h1 {
+    font-size: 2.8em;
+    position: relative;
+    bottom: -60px;
+  }
+  div#contatos {
+    margin: auto;
+    width: 75%;
+    display: flex;
+    justify-content: center;
+  }
+  img {
+    width: 45px;
+  }
+  li > a {
+    position: relative;
+    bottom: -10px;
+    font-size: 1.5em;
+  }
+  footer > p {
+    font-size: 1.8em;
+  }
+  h2 {
+    display: none;
+  }
+}
+
+/*Desktop maior*/
+@media (min-width: 1391px) {
+  main > h1 {
+    font-size: 3em;
+    position: relative;
+    bottom: -60px;
+  }
+  div#contatos {
+    margin: auto;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+  }
+  img {
+    width: 55px;
+  }
+  li > a {
+    position: relative;
+    bottom: -10px;
+    font-size: 1.7em;
+  }
+  footer > p {
+    font-size: 2em;
+  }
+  h2 {
+    display: none;
+  }
+}
