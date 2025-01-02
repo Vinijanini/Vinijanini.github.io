@@ -95,7 +95,6 @@ main > h1 {
 }
 
 div#contatos {
-  border-radius: 10px;
   background-color: #3b90ff54;
   padding: 10px 0px;
   transition: 0.4s;
@@ -204,6 +203,7 @@ footer > p {
     bottom: -60px;
   }
   div#contatos {
+    border-radius: 10px;
     margin: auto;
     width: 75%;
     display: flex;
@@ -233,6 +233,7 @@ footer > p {
     bottom: -60px;
   }
   div#contatos {
+    border-radius: 10px;
     margin: auto;
     width: 50%;
     display: flex;
